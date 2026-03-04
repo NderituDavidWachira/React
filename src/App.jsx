@@ -33,7 +33,7 @@ import { useState } from "react";
 // css — the global stylesheet written as a JS string.
 // We inject it with <style>{css}</style> so all pages share one set of rules
 // without needing a separate .css file import chain.
-import { css } from "./globals.jsx";
+import { css } from "./Globals.jsx";
 
 // ── Page components ──────────────────────────────────────────────────────────
 // Each page lives in its own file. We import them here so App can render

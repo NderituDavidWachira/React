@@ -23,6 +23,7 @@ import { CodeBlock, ConceptGrid, ExplainTable } from "./Globals.jsx";
 // This avoids any backtick / template-literal confusion inside JSX.
 
 // The very first component a beginner would write
+  
 const CODE_FIRST = [
   "// Every React component is a plain JavaScript function.",
   "// The name MUST start with a Capital letter — React needs this",
@@ -88,8 +89,6 @@ export default function Intro() {
         and predictable.
       </p>
 
-
-      {/* ── Section 1: What is React ── */}
       <div className="section">
         <div className="section-head">What is React</div>
 
